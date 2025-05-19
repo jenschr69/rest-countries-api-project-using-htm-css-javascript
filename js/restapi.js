@@ -22,10 +22,9 @@ const getCountry = (country) =>{
         <div class="country-div">
         <img src="${country.flags.png}">
         <h2>${country.name.common}</h2>
-        <hr>
-        <h4>Population: ${country.population}</h4>
-        <h4>Regoin: ${country.region}</h4>
+        <h4>Region: ${country.region}</h4>
         <h4>Capital: ${country.capital}</h4>
+        <h4>Population: ${country.population}</h4>        
         </div>
     `
 }
